@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 70px;
 }
 
 .App-logo {
@@ -37,19 +38,18 @@
   }
 }
 
-.App-body {
-  position: relative;
+ 
+.left {
+  float: left;
+  position: absolute;
+  width: calc(100% - 600px);
+  height: calc(100% - 98px);
+  background-color: red;
+}
+
+.right {
+  float: left;
+  width: 600px;
   height: 100%;
-}
-
-.App-body-left {
-  position: absolute;
-  background-color: wheat;
-  width: 80%;
-}
-
-.App-body-right {
-  position: absolute;
-  background-color: silver;
-  width: 20%;
+  background-color: royalblue;
 }
